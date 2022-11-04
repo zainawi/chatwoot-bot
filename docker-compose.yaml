@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  bot-connector:
+    build: .
+    container_name: smsp-chatwoot-bot-connector

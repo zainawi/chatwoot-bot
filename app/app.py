@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.logger.setLevel(logging.INFO)
 
 @app.route("/", methods=['POST'])
-def hello_world():
+def index():
     payload = json.loads(request.data)
 
     try:

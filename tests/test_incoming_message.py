@@ -69,6 +69,7 @@ class TestIncomingMessage:
                 },
                 "event": "conversation_created"
             })
+        with raises(ValueError):
             IncomingMessage({
                 "content_type": "text",
                 "content": "Hai",

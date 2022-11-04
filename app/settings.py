@@ -1,0 +1,5 @@
+CHATWOOT_API = 'http://localhost:3000/api/v1/'
+CHATWOOT_ACCOUNT_ID = 1
+CHATWOOT_AGENT_TOKEN = 'm8vdrEdmMpTJq78BmMD2HV7H'
+CHATWOOT_BOT_TOKEN = 'zhNcRmJZKY1KseVVXpXWemsH'
+RASA_API = 'http://localhost:5005'

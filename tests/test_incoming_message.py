@@ -51,6 +51,7 @@ def incoming_with_assignee():
         "event": "message_created"
     })
 
+
 class TestIncomingMessage:
     def test_invalid_event(self):
         with raises(ValueError):
